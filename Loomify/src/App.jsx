@@ -6,7 +6,6 @@ import Albums from "./pages/Albums";
 import Artists from "./pages/Artists";
 import Top50Songs from "./pages/Top50Songs";
 import AlbumPage from "./pages/AlbumPage";
-import  AddAlbum  from "./pages/AddAlbum";
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
         <Route path="/albums" element={<Albums />} />
         <Route path="/artists" element={<Artists />} />
         <Route path="/top50" element={<Top50Songs />} />
-        <Route path="/add-album" element={<AddAlbum />} />
         <Route path="/albums/:albumId" element={<AlbumPage />} />
       </Route>
     </Routes>
